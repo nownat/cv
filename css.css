@@ -24,9 +24,10 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('https://github.com/nownat/nownat.github.io/blob/master/img/Build-your-dream-desk-setup-with-these-desk-gadgets-and-accessories-featured-768x432.jpeg');
+  background-image: 
+  url('https://github.com/nownat/nownat.github.io/blob/master/img/Build-your-dream-desk-setup-with-these-desk-gadgets-and-accessories-featured-768x432.jpeg');
   background-size: cover;
-  background-position: fixed;
+  background-position: center;
   color: white;
 }
 
