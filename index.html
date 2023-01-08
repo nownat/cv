@@ -6,49 +6,84 @@
 		<meta name="description" content="your description">
 		<meta name="author" content="your name">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" 
+			  type="text/css" 
+			  href="style.css"/>
 	</head>
 
 	<body>
-		<header>
+		<header id="banner" class="banner">
 			<div>
 				<img src= "https://github.com/nownat/nownat.github.io/blob/master/img/avatar.jpg?raw=true" alt="Natalia">
+				<h1 id="h1">Natalia Nowicka</h1>
+				<button id="button">
+					Zaczynamy
+				</button>
 			</div>
-		
-
 			<section>
 				<p>Pracuję jako Specjalista do Spraw Wdrożeń w firmie Unisoft.</p>
 			</section>
 		</header>
 		<main>
-
+		<!-- Umiejętności -->
+        <section>
+            <h3>Umiejętności</h3>
+            <div class='skills'>
+                <div class='column'>
+                    <h4>Bardzo dobra znajomość</h4>
+                    <ul class="list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Edytory kodu
+                            <ul class="list2">
+                                <li>Visual Studio Code</li>
+                                <li>Visual Studio</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class='column'>
+                    <h4>Basic knowledge</h4>
+                        <ul class="list">
+                            <li>Git</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class='column'>
+                        <h4>Inne</h4>
+                        <ul class="list">
+                            <li>Photoshop</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>                     
+                </div>
+                <div class="column">
+                    <h4>Języki</h4>
+                    <ul class="list2">
+                        <li>Polski - biegły</li>
+                        <li>Angielski - średniozaawansowany</li>
+                    </ul>
+                </div>
 			</section>
-			<!-- Skilss -->
-			<section>
-				<h3>Skills</h3>
 
-				... put your code here ...
-
-			</section>
 			<!-- Szkola -->
 			<section>
 				<h3>Edukacja</h3>
-	      <article>
+	       	 <article>
 	        <div class='school'>
 	          <span>2019-obecnie</span> Uniwersytet Kazimierza Wielkiego w Bydgoszczy
 	        </div>
-	        <div class="descrition">
+	        <div class="description">
 	          Kierunek : Informatyka
 	        </div>
-
 			<article>
-				<div class='school'>
-				  <span>2012 - 2017</span> Kujawsko Pomorska Szkoła Wyższa w Bydgoszczy
-				</div>
-				<div class="descrition">
-				  Kierunek : Geodezja i Kartografia
-				</div>
-	      </article>
+			<div class='school'>
+			 <span>2012-2017</span> Kujawsko Pomorska Szkoła Wyższa w Bydgoszczy
+			</div>
+			<div class="description">
+		     Kierunek : Geodezja i Kartografia
+			</div>
+	        </article>
 			</section>
 			<!--Doswiadczenie -->
 			<section>
@@ -58,13 +93,13 @@
 					<span> 09.2021 - 12.2022  </span> <strong> Stanowisko: </strong> Specjalista ds. Wdrożeń
 					</div>
 						<p> <strong>Obowiązki:</strong></p>
-						<ul class="job-descrition">
+						<ul class="job-description">
 							<li>Obsługa Klienta</li>
 							<li>Diagnozowanie i analizowanie problemów z programem</li>
 							<li>Rozwiązywanie bieżących problemów związanych z systemem </li>
 							<li>Tworzenie wydruków z pomocą języka SQL</li>
 							<li>Wsparcie techniczne</li>
-							<li>Przygotowywanie infrastruktury pod aplikacje webowe(eBOK) </li>
+							<li>Przygotowywanie infrastruktury pod aplikacje webowe (eBOK) </li>
 						</ul>
 					</div>
 				</article>
@@ -73,5 +108,8 @@
 		<footer>
 			<p>Created by @Natalia  / **** / **** / </p>
 		</footer>
+		<script
+			type="text/javascript" src ="javascript.js">
+		</script>
 	</body>
 </html>
